@@ -39,8 +39,6 @@ class Program:
             self.list = [int(item.strip()) for item in self.list]
         elif self.list_type == "decimal":
             self.list = [float(item.strip()) for item in self.list]
-
-        print(self.list)
         
         swapped = True
         while swapped == True:
